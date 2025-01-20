@@ -4,7 +4,7 @@ main.model_name = 'Tri-MipRF'
 main.batch_size = 1 # this is not the actual batch_size, but the prefetch size
 main.min_block_size = 66
 
-RayDataset.base_path = 'I:/home/xubo/WHU-dataset/trajectory_2'
+RayDataset.base_path = 'path/to/dataset'
 RayDataset.scene = 'slow'
 RayDataset.scene_type = 'whu'
 RayDataset.use_colmap_pose = False
