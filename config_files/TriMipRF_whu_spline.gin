@@ -1,0 +1,23 @@
+main.train_split = 'trainval'
+main.num_workers = 16
+main.model_name = 'Tri-MipRF'
+main.batch_size = 1 # this is not the actual batch_size, but the prefetch size
+main.min_block_size = 66
+
+RayDataset.base_path = 'I:/home/xubo/WHU-dataset/trajectory_1'
+RayDataset.scene = 'slow'
+RayDataset.scene_type = 'whu'
+RayDataset.use_colmap_pose = False
+
+Trainer.base_exp_dir = 'E:/DeepLearn/Code/Vfinal_Essential_matrix_0226/log'
+Trainer.exp_name = None
+Trainer.eval_step = 5000
+Trainer.log_step = 1000
+Trainer.block_max_steps = 15001
+Trainer.target_sample_batch_size = 262144
+
+TriMipRFModel.pose_optimization = False
+TriMipRFModel.rolling_velocity = False
+TriMipRFModel.poses_disturb = True
+TriMipRFModel.spline_interpolation = True
+TriMipRFModel.beta_min = 0.02
