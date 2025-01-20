@@ -9,7 +9,7 @@ RayDataset.scene = 'slow'
 RayDataset.scene_type = 'whu'
 RayDataset.use_colmap_pose = False
 
-Trainer.base_exp_dir = 'E:/DeepLearn/Code/Vfinal_Essential_matrix_0226/log'
+Trainer.base_exp_dir = './log'
 Trainer.exp_name = None
 Trainer.eval_step = 5000
 Trainer.log_step = 1000
