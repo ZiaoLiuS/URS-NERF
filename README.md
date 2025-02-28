@@ -71,7 +71,7 @@ code: mhuj
 
 ## **Training and evaluation**
 
-### Run URS-NeRF with Tri-MipRF：
+### Run URS-NeRF：
 
 ```shell
 python main.py --ginc config_files/TriMipRF_whu_URS.gin
