@@ -17,7 +17,7 @@
   <h3 align="center"><a href="https://arxiv.org/abs/2403.10119">Paper</a> | <a href="https://boxulibrary.github.io/projects/URS-NeRF/">Project Page</a></h3>
   <div align="center"></div>
 
-## **Installation**
+# **Installation**
 Please install the following dependencies first
 
 - [PyTorch (1.13.1 + cu11.6)](https://pytorch.org/get-started/locally/) 
@@ -79,7 +79,7 @@ pip3 install av==9.2.0 \
     termcolor
 ```
 
-## **Dataset**
+# **Dataset**
 
 ### WHU-RS dataset
 ```
@@ -87,7 +87,7 @@ Please download from https://pan.baidu.com/s/1pzbhxaJZjexwQ86_AkrH-A?pwd=mhuj
 
 code: mhuj
 ```
-## **Training and evaluation**
+# **Training and evaluation**
 
 ### Run URS-NeRF：
 
