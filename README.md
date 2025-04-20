@@ -1,5 +1,23 @@
-## **Installation**
+[comment]: <> (# URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields)
 
+<p align="center">
+  <h1 align="center">URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields</h1>
+  <p align="center">
+    <a href="https://boxulibrary.github.io/"><strong>Bo Xu</strong></a>
+    ·
+    <a href=""><strong>Ziao Liu</strong></a>
+       ·
+    <a href="https://dreamguo.github.io/"><strong>Mengqi Guo</strong></a>
+       ·
+    <a href=""><strong>Jiancheng Li</strong></a>
+    ·
+    <a href="https://www.comp.nus.edu.sg/~leegh/"><strong>Gim Hee Lee</strong></a>
+
+[comment]: <> (  <h2 align="center">PAPER</h2>)
+  <h3 align="center"><a href="https://arxiv.org/abs/2403.10119">Paper</a> | <a href="https://boxulibrary.github.io/projects/URS-NeRF/">Project Page</a></h3>
+  <div align="center"></div>
+
+## **Installation**
 Please install the following dependencies first
 
 - [PyTorch (1.13.1 + cu11.6)](https://pytorch.org/get-started/locally/) 
@@ -61,14 +79,14 @@ pip3 install av==9.2.0 \
     termcolor
 ```
 
-## **Data**
+## **Dataset**
 
 ### WHU-RS dataset
-
+```
 Please download from https://pan.baidu.com/s/1pzbhxaJZjexwQ86_AkrH-A?pwd=mhuj 
 
 code: mhuj
-
+```
 ## **Training and evaluation**
 
 ### Run URS-NeRF：
@@ -83,8 +101,16 @@ python main.py --ginc config_files/TriMipRF_whu_URS.gin
 python main.py --ginc config_files/TriMipRF_whu_spline.gin
 ```
 
-## **TODO**
+# Citation
+If you found this code/work to be useful in your own research, please considering citing the following:
 
-
-
-## 
+```bibtex
+@inproceedings{xu2024urs,
+  title={URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields},
+  author={Xu, Bo and Liu, Ziao and Guo, Mengqi and Li, Jiancheng and Lee, Gim Hee},
+  booktitle={European Conference on Computer Vision},
+  pages={458--475},
+  year={2024},
+  organization={Springer}
+}    
+```
